@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/chco3"
+    android:orientation="vertical"
+    tools:context="com.example.android.chocolateroom.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/choco1"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/marker"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Sector - 35, Chandigarh, India"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/clock"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="09:30 - 23:00"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phone"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="+91 172 401 7575"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cake"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:text="Forget love now,\n                         Rather fall in chocolate!!!!!!!"
+            android:layout_marginTop="20dp"
+            android:textColor="#999999"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#5b0303"
+        android:text="CREATING A NEW CHOCOLATE CULTURE!"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:elegantTextHeight="true"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
